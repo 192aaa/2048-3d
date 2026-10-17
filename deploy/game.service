@@ -1,0 +1,17 @@
+[Unit]
+Description=Game 2048 3D Web App
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/game
+ExecStart=/usr/bin/java -Xms128m -Xmx256m -jar /opt/game/game-0.0.1-SNAPSHOT.jar
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

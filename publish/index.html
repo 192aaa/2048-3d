@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>2048 · 3D</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="hud">
+        <div class="title">2048 <span class="tag">3D</span></div>
+        <div class="scores">
+            <div class="score-box">
+                <div class="label">分数</div>
+                <div id="score">0</div>
+            </div>
+            <div class="score-box">
+                <div class="label">最高</div>
+                <div id="best">0</div>
+            </div>
+        </div>
+        <div class="btn" id="restart">新游戏</div>
+    </div>
+
+    <div id="tip">方向键 / WASD · 鼠标拖拽旋转视角</div>
+
+    <div id="overlay" class="hidden">
+        <div class="panel">
+            <div id="overlay-title">游戏结束</div>
+            <div id="overlay-score"></div>
+            <div class="btn" id="overlay-btn">再来一局</div>
+        </div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "./vendor/three.module.js"
+        }
+    }
+    </script>
+    <script type="module" src="game.js"></script>
+</body>
+</html>

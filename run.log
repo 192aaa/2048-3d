@@ -1,0 +1,13 @@
+﻿
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-17T16:06:02.516+08:00  INFO 24764 --- [game] [           main] com.example.game.GameApplication         : Starting GameApplication v0.0.1-SNAPSHOT using Java 17.0.20.1 with PID 24764 (D:\game\target\game-0.0.1-SNAPSHOT.jar started by 19275 in D:\game)
+2026-10-17T16:06:02.519+08:00  INFO 24764 --- [game] [           main] com.example.game.GameApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-17T16:06:02.963+08:00  INFO 24764 --- [game] [           main] com.example.game.GameApplication         : Started GameApplication in 0.862 seconds (process running for 1.261)
